@@ -38,11 +38,11 @@ Modelo de Tese e Disertação da Universidade Federal de Viçosa, para LaTeX.
 
 _verifique se todos os pacotes necessários estão instalados no seu sistema;_
 
-_verifique se os capítulos estão adicionados com o comando _input_. Verifique também se os caminhos até os .tex dos capítulos estão corretos. Adicione ou remova-os de acordo com sua necessidade;
+_verifique se os capítulos estão adicionados com o comando input. Verifique também se os caminhos até os .tex dos capítulos estão corretos. Adicione ou remova-os de acordo com sua necessidade;_
 
-_preencha as informações para serem exibidas no rodapé da tese (fancyhead e fancyfoot);
+_preencha as informações para serem exibidas no rodapé da tese (fancyhead e fancyfoot);_
 
-_caso necessário, você pode adicionar um arquivo .pdf com análises estatísticas no fim do arquivo, com o comando includepdf.
+_caso necessário, você pode adicionar um arquivo .pdf com análises estatísticas no fim do arquivo, com o comando includepdf._
 
 **compile o arquivo _main_**
 
