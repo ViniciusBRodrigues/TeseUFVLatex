@@ -1,0 +1,68 @@
+\newpage
+ \thispagestyle{empty}
+% \pagenumbering{roman}
+% \doublespacing
+%  
+\begin{spacing}{1}
+\begin{center}
+% \vspace*{-0.5cm}
+{\MakeUppercase{Vinícius Barros Rodrigues} \\ }
+
+\vspace*{4.2cm}
+{\MakeUppercase{\textbf{Título da sua tese}} \\ }
+\end{center}
+
+\vspace*{2.6cm}
+\singlespacing
+\begin{flushright}
+\begin{minipage}{7.5cm}
+{Tese apresentada à Universidade Federal de Viçosa, como parte
+  das exigências do Programa de Pós-Graduação em Entomologia, para
+  obtenção do título de \textit{Doctor Scientiae}.}
+\end{minipage}
+\end{flushright}
+\vspace*{1.3cm}
+%
+% % Data de aprovação
+%
+APROVADA: xx de xxxx de xxxx.
+\vfill
+%
+% % Componentes da banca
+%
+\begin{minipage}{0.45\linewidth}
+\centering
+\vspace{0.5cm}
+\rule{\linewidth}{0.1mm}\\
+{Membro da banca 1}%%%%%%%%%%%%%%%%%%% Membro 1
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\linewidth}
+\centering
+\vspace*{0.5cm}
+\rule{\linewidth}{0.1mm}
+{Membro da banca 2}%%%%%%%%%%%%%%%%%%% Membro 2
+\end{minipage}
+\vfill
+\begin{minipage}{0.45\linewidth}
+\centering
+\rule{\linewidth}{0.1mm}
+{Membro da banca 3}%%%%%%%%%%%%%%%%%%% Membro 3
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\linewidth}
+\centering
+\rule{\linewidth}{0.1mm}
+{Membro da banca 4}%%%%%%%%%%%%%%%%%%% Membro 3
+\end{minipage}
+
+\vfill
+\begin{center}
+\begin{minipage}{7.5cm}
+{\begin{center}
+\rule{\linewidth}{0.1mm} \\
+Orientador
+\end{center}}
+\end{minipage}
+\end{center}
+\end{spacing}

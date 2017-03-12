@@ -1,0 +1,22 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian,brazil]{babel}
+\usepackage{fancyhdr,setspace,float,graphicx,lscape,array,longtable,colortbl,amsmath,amssymb,booktabs,multirow,hyperref,pdfpages,tocloft,titlesec,lipsum,natbib}
+\usepackage[sectionbib]{chapterbib}
+\begin{document}
+\clearpage
+\chapter{Um título}
+\lipsum[2-2] \citep{lamport1986latex} 
+\begin{figure}[h]
+\centering
+\caption{Minha figura}
+\includegraphics[scale=0.7]{./capitulos/cap01/ufv.jpg}
+\end{figure}
+\section{Seção nova}
+\lipsum[2-3]
+%%%% APAGAR O EXEMPLO ACI
+
+%%%% REFERÊNCIAS
+\bibliography{referencias.bib}
+\bibliographystyle{apalike}
+\end{document}

@@ -1,0 +1,30 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian,brazil]{babel}
+\usepackage{fancyhdr,setspace,float,graphicx,lscape,array,longtable,colortbl,amsmath,amssymb,booktabs,multirow,hyperref,pdfpages,tocloft,titlesec,lipsum,natbib}
+\usepackage[sectionbib]{chapterbib}
+
+\begin{document}
+\chapter{Título do capítulo}
+\lipsum[2-4] \lipsum[1]
+\begin{table}[]
+\centering
+\caption{Minha tabela}
+\label{my-label}
+\begin{tabular}{lll}
+1 & a & s \\ \hline
+1 & a & x \\
+2 & z & s
+\end{tabular}
+\end{table}
+\section{Seção nova}
+\lipsum[2-3]
+De acordo com \cite{Rodrigues2016} e \cite{kopka2004guide}.
+
+
+
+%%%% REFERÊNCIAS
+\bibliography{referencias.bib}
+\bibliographystyle{apalike}
+\end{document}
+

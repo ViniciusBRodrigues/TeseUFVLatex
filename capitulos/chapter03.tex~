@@ -1,0 +1,30 @@
+\pagenumbering{arabic}
+\setcounter{page}{7} %%%% modificar o número da página
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{Título da tese} %%%% preencher
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Capítulo \thechapter} %%%% preencher opcionalmente
+\fancyfoot[CO,RE]{Autor} %%%% preencher
+\begin{refsection}
+
+%%%%%%%%%%%%%%%%% COLE SEU TEXTO AQUI: %%%%%%%%%%%%%%%%%%%%%%%
+\section{Teste}
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% REFERENCIAS %%%%%%%%%%%%%%%%%%%%
+\newpage
+\phantomsection
+\addcontentsline{toc}{section}{Referências}
+\printbibliography[heading=subbibliography]
+\end{refsection}

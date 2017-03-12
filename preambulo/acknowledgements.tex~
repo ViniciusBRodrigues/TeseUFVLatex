@@ -1,0 +1,17 @@
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{\thepage}
+\fancyfoot{}
+\fancyfoot[LE,RO]{}
+\fancyfoot[LO,CE]{}
+\fancyfoot[CO,RE]{}
+% \vspace*{1.7cm}
+\addcontentsline{toc}{chapter}{Agradecimentos}
+
+\begin{center}
+
+\chapter*{Agradecimentos}
+\end{center}
+
+
+\vspace{0.5cm}
