@@ -3,13 +3,12 @@ Modelo de Tese e Disertação da Universidade Federal de Viçosa, para LaTeX.
 
 ---
 
-**Versão: 0.6**
+**Versão: 0.7**
 
 ----
 
 
 ### Manual
-
 
 - Inicialmente, preencha as informações dentro da pasta _preambulo_. Essa pasta contém os seguintes arquivos:
  
@@ -29,29 +28,21 @@ Modelo de Tese e Disertação da Universidade Federal de Viçosa, para LaTeX.
 
 ---
 
-- Coloque todas as figuras e gráficos do seu trabalho na pasta _imagens_
+- A pasta _capitulos_ deve conter os seus arquivos .tex, figuras e .bib.
 
-- Mova o seu arquivo de referências _(.bib)_ para o diretório da tese. De preferência, renomeie o seu arquivo para _referencias.bib_ e substitua o arquivo original
-
-- A pasta _capitulos_ contém os arquivos para o preenchimento com os textos
-
-**introducao.tex:** apague o arquivo de exemplo e cole o seu texto. Cuidado para não apagar o cabeçalho original. No cabeçalho, preencha com o seu nome e com o título resumido da tese nos locais indicados. Caso deseje, pode deixar em branco essas opções
-
-**cap02.tex:** apague o exemplo e cole o seu texto. Não precisa preencher cabeçalho.
-
-**se necessário, crie outros capítulos.**
+** Os capítulos devem ser compilados separadamente. Isso é necessário para que os arquivos auxiliares de referências sejam criados. Só dessa forma os capítulos terão referências separadas.**
 
 ---
 
-- Abra o arquivo **main.tex**:
+- Uma vez compliado os capítulos separadamente, abra o arquivo **main.tex**:
 
 _verifique se todos os pacotes necessários estão instalados no seu sistema;_
 
-verifique se os capítulos estão adicionados com o comando _imput_. Adicione ou remova-os de acordo com sua necessidade;
+_verifique se os capítulos estão adicionados com o comando _input_. Verifique também se os caminhos até os .tex dos capítulos estão corretos. Adicione ou remova-os de acordo com sua necessidade;
 
-confirme o nome do seu arquivo de referências _.bib_;
+_preencha as informações para serem exibidas no rodapé da tese (fancyhead e fancyfoot);
 
-caso necessário, você pode adicionar um arquivo _.pdf_ com análises estatísticas no fim do arquivo, com o comando **includepdf**.
+_caso necessário, você pode adicionar um arquivo _.pdf_ com análises estatísticas no fim do arquivo, com o comando **includepdf**.
 
-**compile (o _main_ é o único arquivo que pode ser compilado).**
+**compile o arquivo _main_**
 
