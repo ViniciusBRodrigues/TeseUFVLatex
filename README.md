@@ -42,7 +42,7 @@ _verifique se os capítulos estão adicionados com o comando _input_. Verifique 
 
 _preencha as informações para serem exibidas no rodapé da tese (fancyhead e fancyfoot);
 
-_caso necessário, você pode adicionar um arquivo _.pdf_ com análises estatísticas no fim do arquivo, com o comando **includepdf**.
+_caso necessário, você pode adicionar um arquivo .pdf com análises estatísticas no fim do arquivo, com o comando includepdf.
 
 **compile o arquivo _main_**
 
