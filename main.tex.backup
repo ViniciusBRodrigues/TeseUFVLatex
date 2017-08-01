@@ -29,8 +29,13 @@
 \linespread{1.05}
 \usepackage[T1]{fontenc}
 %****************************************************************************************************
-\input{dados}
-%****************************************************************************************************
+% Preencher os seguintes dados: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\nome}{Seu nome completo}
+\newcommand{\titulo}{Título da sua tese}
+\newcommand{\programa}{Programa PPG} % Entomologia
+\newcommand{\titulo2}{Doctor Scientiae} % ou Magister Scientiae
+
+
 \begin{document}
 %****************************************************************************************************
 % Edite cada um dos seguintes arquivos na pasta ``preambulo''
@@ -64,8 +69,8 @@
 %****************************************************************************************************
 % Preencher o título da tasese e seu nome abaixo (opcional). Se não quiser, basta comentar com %.
 %****************************************************************************************************
-\fancyhead[RO,LE]{\titulo}
-\fancyfoot[CO,RE]{\nome}
+\fancyhead[RO,LE]{Título da tese (opcional)}
+\fancyfoot[CO,RE]{Autor (opcional)}
 
 
 %****************************************************************************************************
