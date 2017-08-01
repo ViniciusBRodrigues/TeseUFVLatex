@@ -3,26 +3,28 @@ Modelo de Tese e Disertação da Universidade Federal de Viçosa, para LaTeX.
 
 ---
 
-**Versão: 0.7**
+**Versão: 0.8**
 
 ----
 
 
 ### Manual
 
-- Inicialmente, preencha as informações dentro da pasta _preambulo_. Essa pasta contém os seguintes arquivos:
+- Inicialmente, preencha as informações no arquivo _dados.tex_ (nome, titulo, cidade, membros da banca, etc.).
+
+- A pasta _preambulo_ contém os seguintes arquivos:
  
-**capa.tex:** preencher o seu nome completo, o título da tese, nome do programa, o título (Magister Scientiae ou Doctor Scientiae), cidade e data;
+**capa.tex:** Não modificar nada;
 
-**aprovacao.tex:** preencher o seu nome completo, o título da tese, nome do programa, o título (Magister Scientiae ou Doctor Scientiae), data de aprovação e membros da banca. O mês deve ser preenchido por extenso. O nome dos membros _não_ deve conter prof. ou dr.; caso o número de membros na sua banca for menor ou maior do que o padrão do arquivo, basta modificar as linhas;
+**aprovacao.tex:** não modificar. O nome dos membros _não_ deve conter prof. ou dr.; caso o número de membros na sua banca for menor ou maior do que o padrão do arquivo, basta modificar as linhas;
 
-**dedicatória.tex**
+**dedicatória.tex** não modificar.
 
-**epígrafe.tex**
+**epígrafe.tex** não modificar.
 
-**agradecimentos.tex**
+**agradecimentos.tex** não modificar.
 
-**resumo.tex**
+**resumo.tex** não modificar.
 
 **Não compile nenhum dos arquivos anteriores.**
 
@@ -39,8 +41,6 @@ Modelo de Tese e Disertação da Universidade Federal de Viçosa, para LaTeX.
 _verifique se todos os pacotes necessários estão instalados no seu sistema;_
 
 _verifique se os capítulos estão adicionados com o comando input. Verifique também se os caminhos até os .tex dos capítulos estão corretos. Adicione ou remova-os de acordo com sua necessidade;_
-
-_preencha as informações para serem exibidas no rodapé da tese (fancyhead e fancyfoot);_
 
 _caso necessário, você pode adicionar um arquivo .pdf com análises estatísticas no fim do arquivo, com o comando includepdf._
 
