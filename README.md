@@ -1,11 +1,21 @@
 # TeseUFVLatex
 Modelo de Tese e Disertação da Universidade Federal de Viçosa, para LaTeX.
 
+[![DOI](https://zenodo.org/badge/84732333.svg)](https://zenodo.org/badge/latestdoi/84732333)
+
 ---
 
-**Versão: 0.8**
+**Como citar:**
 
-[![DOI](https://zenodo.org/badge/84732333.svg)](https://zenodo.org/badge/latestdoi/84732333)
+```
+@Electronic{Rodrigues2017,
+  Title                    = {Modelo de {T}ese e {D}isertação da {U}niversidade {F}ederal de {V}içosa, para {L}a{T}e{X}},
+  Author                   = {Rodrigues, V. B.},
+  Language                 = {Latex},
+  Url                      = {https://github.com/ViniciusBRodrigues/TeseUFVLatex},
+  Doi                      = {10.5281/zenodo.905784}
+}
+```
 
 ----
 
