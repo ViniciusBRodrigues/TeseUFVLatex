@@ -4,6 +4,7 @@ Modelo de Tese e Disertação da Universidade Federal de Viçosa, para LaTeX.
 ---
 
 **Versão: 0.8**
+[![DOI](https://zenodo.org/badge/84732333.svg)](https://zenodo.org/badge/latestdoi/84732333)
 
 ----
 
