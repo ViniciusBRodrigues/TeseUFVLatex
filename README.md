@@ -22,7 +22,7 @@ O código já está no formato exigido pela UFV e compila as referências separa
 ----
 
 
-### Manual
+### Como utilizar:
 
 - Inicialmente, preencha as informações no arquivo _dados.tex_ (nome, titulo, cidade, membros da banca, etc.).
 
