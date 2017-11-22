@@ -3,7 +3,7 @@ Modelo de Tese e Disertação da Universidade Federal de Viçosa, para LaTeX.
 
 O código já está no formato exigido pela UFV e compila as referências separadas por capítulos. Utiliza a fonte Palatino, que acredito ser mais confortável pra leitura.
 
-[![DOI](https://zenodo.org/badge/84732333.svg)](https://zenodo.org/badge/latestdoi/84732333)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1064955.svg)](https://doi.org/10.5281/zenodo.1064955)
 
 ---
 
