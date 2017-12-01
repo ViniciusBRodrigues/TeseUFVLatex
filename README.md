@@ -24,7 +24,7 @@ O código já está no formato exigido pela UFV e compila as referências separa
 
 ### Como utilizar:
 
-- Inicialmente, preencha as informações no arquivo _dados.tex_ (nome, titulo, cidade, membros da banca, etc.).
+- Inicialmente, preencha as informações no arquivo **dados.tex** (nome, titulo, cidade, membros da banca, etc.).
 
 - A pasta _preambulo_ contém os seguintes arquivos:
  
@@ -32,19 +32,21 @@ O código já está no formato exigido pela UFV e compila as referências separa
 
 **aprovacao.tex:** não modificar. O nome dos membros _não_ deve conter prof. ou dr.; caso o número de membros na sua banca for menor ou maior do que o padrão do arquivo, basta modificar as linhas;
 
-**dedicatória.tex** não modificar.
+**dedicatória.tex:** preencher (opcional);
 
-**epígrafe.tex** não modificar.
+**epígrafe.tex:** preecher (opcional);
 
-**agradecimentos.tex** não modificar.
+**agradecimentos.tex:** preencher;
 
-**resumo.tex** não modificar.
+**resumo.tex:** preencher;
+
+**abstract.tex:** preencher;
 
 **Não compile nenhum dos arquivos anteriores.**
 
 ---
 
-- A pasta _capitulos_ deve conter os seus arquivos .tex, figuras e .bib.
+- A pasta _capitulos_ deve conter os seus arquivos _.tex_, as figuras e o arquivo de referências _.bib_.
 
 **Os capítulos devem ser compilados separadamente. Isso é necessário para que os arquivos auxiliares de referências sejam criados. Só dessa forma os capítulos terão referências separadas.**
 
