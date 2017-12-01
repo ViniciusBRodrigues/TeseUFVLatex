@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.9.27)  22 NOV 2017 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/TeX Live for SUSE Linux) (preloaded format=pdflatex 2017.9.27)  30 NOV 2017 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1317,12 +1317,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 18.
-pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.18 \newpage
-              [2
+ [4
 
 ]) (./main.toc)
 \tf@toc=\write4
@@ -1332,12 +1327,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 68.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 68.
-pdfTeX warning (ext4): destination with the same identifier (name{page.iii}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.68 \newpage
-              [3] (./main.lof)
+ [5] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -1347,7 +1337,8 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 71.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 71.
- [4] (./main.lot)
+
+[6] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
@@ -1358,8 +1349,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
-
-[5]
+ [7]
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 4.
@@ -1378,12 +1368,18 @@ less on input line 8.
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 13.
+
+Overfull \hbox (1.85425pt too wide) in paragraph at lines 23--23
+[]\T1/pplx/m/n/12 Nam dui li-gula, frin-gilla a, euis-mod so-da-les, sol-li-ci-
+tu-din vel, wisi. Morbi
+ []
+
 ) (./preambulo/abstract.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
- [6
+ [8
 
 ]
 
@@ -1402,12 +1398,18 @@ less on input line 7.
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less on input line 8.
 
+
+Overfull \hbox (1.85425pt too wide) in paragraph at lines 21--21
+[]\T1/pplx/m/n/12 Nam dui li-gula, frin-gilla a, euis-mod so-da-les, sol-li-ci-
+tu-din vel, wisi. Morbi
+ []
+
 )
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 80.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 80.
- [7
+ [9
 
 ]
 
@@ -1431,26 +1433,30 @@ less on input line 98.
 (./capitulos/cap01/introduction.tex
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 14.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 8.
-<./capitulos/cap01/ufv.jpg, id=90, 206.48572pt x 137.313pt>
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 14.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 14.
+(/usr/share/texmf/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+<./capitulos/cap01/ufv.jpg, id=92, 206.48572pt x 137.313pt>
 File: ./capitulos/cap01/ufv.jpg Graphic file (type jpg)
 
 <use ./capitulos/cap01/ufv.jpg>
-Package pdftex.def Info: ./capitulos/cap01/ufv.jpg used on input line 13.
+Package pdftex.def Info: ./capitulos/cap01/ufv.jpg used on input line 19.
 (pdftex.def)             Requested size: 144.539pt x 96.11842pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 21.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 22.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 \lipsum[2-3]
+l.22 \lipsum[2-3]
                   [1
 
 
@@ -1469,12 +1475,13 @@ Package babel Info: Redefining portuges shorthand "|
  (./capitulos/cap02/cap02.tex
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 9.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 9.
+(babel)             in language  on input line 13.
 [3
+
 
 
 
@@ -1482,47 +1489,43 @@ Package babel Info: Redefining portuges shorthand "|
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 10.
+               Default added (so using `tbp') on input line 14.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 20.
-(./capitulos/cap02/cap02.bbl
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
- [4]))
+(babel)             in language  on input line 24.
+(./capitulos/cap02/cap02.bbl))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 108.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 108.
- [5]
+ [4]
 \openout2 = `capitulos/cap03/cap03.aux'.
 
  (./capitulos/cap03/cap03.tex
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 9.
+(babel)             in language  on input line 12.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 10.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 10.
-[6
+(babel)             in language  on input line 13.
+[5
 
 
 
 
-]
+
+] (./capitulos/cap03/cap03.bbl
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 10.
+(babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 10.
- [7] (./capitulos/cap03/cap03.bbl))
+(babel)             in language  on input line 1.
+ [6]))
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 110.
- [8]
+ [7]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
  (./main.aux
@@ -1535,20 +1538,22 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 12288 strings out of 494041
- 171437 string characters out of 6158495
- 385080 words of memory out of 5000000
- 15294 multiletter control sequences out of 15000+600000
- 25282 words of font info for 53 fonts, out of 8000000 for 9000
+ 12311 strings out of 494041
+ 172093 string characters out of 6158495
+ 387749 words of memory out of 5000000
+ 15308 multiletter control sequences out of 15000+600000
+ 29482 words of font info for 56 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
- 51i,11n,52p,295b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/u
-rw/palatino/uplb8a.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplr8a.pfb></
-usr/share/texmf/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (18 pages, 501927 bytes).
+ 51i,11n,52p,295b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfss0
+600.pfb></usr/share/texmf/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf
+/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf/fonts/type1/urw/palatino
+/uplri8a.pfb>
+Output written on main.pdf (17 pages, 512993 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
