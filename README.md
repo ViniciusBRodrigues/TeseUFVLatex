@@ -1,7 +1,7 @@
 # TeseUFVLatex
-Modelo de Tese e Disertação da Universidade Federal de Viçosa, para LaTeX.
+Modelo de Teses e Dissertações da Universidade Federal de Viçosa, para LaTeX.
 
-O código já está no formato exigido pela UFV e compila as referências separadas por capítulos. Utiliza a fonte Palatino, que acredito ser mais confortável pra leitura.
+O código já está no formato exigido pela UFV. Além disso, o arquivo compila as referências separadas por capítulos e utiliza a fonte Palatino.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1289327.svg)](https://doi.org/10.5281/zenodo.1289327)
 
