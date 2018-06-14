@@ -1,9 +1,8 @@
 %****************************************************************************************************
-% Modelo criado por Vinícius Barros Rodrigues (viniciusbrbio@gmail.com)
-% Versão 1
-% Novembro 2017
+% Modelo criado por Vinícius Barros Rodrigues (viniciusbrbio@gmail.com) e Verônica Saraiva Fialho
+% Versão 1.2
+% Dezembro 2017
 % Disponível em: https://github.com/ViniciusBRodrigues/TeseUFVLatex
-% DOI: 
 %****************************************************************************************************
 % Pacotes necessários -- verifique se todos estão inslados em seu sistema
 %****************************************************************************************************
@@ -11,12 +10,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[brazilian,brazil]{babel}
 \usepackage[a4paper,left=4cm,right=3cm,bottom=2.5cm,top=2.8cm]{geometry}
-\usepackage{fancyhdr,setspace,float,graphicx,lscape,array,longtable,colortbl,amsmath,amssymb,booktabs,multirow,hyperref,pdfpages,tocloft,titlesec,lipsum,natbib,standalone,lineno}
-\usepackage{textcomp%
-,footmisc%
-,color%
-,framed,xspace,xcolor
-}
+\usepackage{fancyhdr,setspace,float,graphicx,lscape,array,longtable,colortbl,amsmath,amssymb,booktabs,multirow,hyperref,pdfpages,tocloft,titlesec,lipsum,natbib,standalone,lineno,textcomp,footmisc,color,framed,xspace,xcolor}
 \usepackage[sectionbib]{chapterbib}
 \renewcommand\cftloftitlefont{\Large\bfseries\hfill}
 \renewcommand\cftlottitlefont{\Large\bfseries\hfill}
@@ -45,6 +39,7 @@
 \usepackage[T1]{fontenc}
 %****************************************************************************************************
 \input{dados}
+\input{res_abs}
 %****************************************************************************************************
 \begin{document}
 %****************************************************************************************************
@@ -82,8 +77,8 @@
 %****************************************************************************************************
 % Preencher o título da tasese e seu nome abaixo (opcional). Se não quiser, basta comentar com %.
 %****************************************************************************************************
-\fancyhead[RO,LE]{\titulo}
-\fancyfoot[CO,RE]{\nome}
+\fancyhead[RO,L]{\titulo}
+\fancyfoot[CO,R]{\nome}
 
 
 %****************************************************************************************************
@@ -94,8 +89,8 @@
 \pagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
-\fancyfoot[LE,RO]{\thepage}
-\fancyfoot[LO,CE]{Capítulo \thechapter}
+\fancyfoot[L,RO]{\thepage}
+\fancyfoot[LO,C]{Capítulo \thechapter}
 
 
 %****************************************************************************************************
@@ -115,7 +110,7 @@
 %****************************************************************************************************
 % Análises estatísticas em pdf
 % Descomente e coloque o nome do seu arquivo
-%\includepdf[pages=-]{myfile.pdf}
+%\includepdf[pages=-]{nome_do_arquivo.pdf}
 %****************************************************************************************************
   
 \end{document}

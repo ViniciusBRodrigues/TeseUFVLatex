@@ -4,23 +4,20 @@
 \usepackage{fancyhdr,setspace,float,graphicx,lscape,array,longtable,colortbl,amsmath,amssymb,booktabs,multirow,hyperref,pdfpages,tocloft,titlesec,lipsum,natbib}
 \usepackage[sectionbib]{chapterbib}
 \begin{document}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%***
 \clearpage
 \linenumbers % numeração de linhas
 \modulolinenumbers[3] % numeração de linhas
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\chapter{Um título}
-\lipsum[2-2] \citep{lamport1986latex} 
-\begin{figure}[h]
-\centering
-\caption{Minha figura}
-\includegraphics[scale=0.7]{./capitulos/cap01/ufv.jpg}
-\end{figure}
-\section{Seção nova}
+%***
+% Texto
+%***
+\chapter{Nam dui ligula}
+%***
+\lipsum[2-2] Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi
+auctor lorem non justo \citep{lamport1986latex}.
+\section{Euismod sodales}
 \lipsum[2-3]
-%%%% APAGAR O EXEMPLO ACI
+%*** APAGAR O EXEMPLO ACIMA
 
 
 
@@ -28,7 +25,7 @@
 
 
 
-%%%% REFERÊNCIAS
+%*** REFERÊNCIAS
 \bibliography{referencias.bib}
 \bibliographystyle{apalike}
 \end{document}

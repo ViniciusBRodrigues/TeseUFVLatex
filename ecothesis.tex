@@ -1,0 +1,145 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+
+\title{\texttt{ecothesis} - Um modelo em \LaTeX~ para Trabalhos de Conclusão de Curso, Teses e Dissertações\\\textbf{Guia de utilização}}
+
+\author{Vinícius Barros Rodrigues}
+
+\newcommand{\modelo}{\texttt{\textbf{ecothesis}}}
+
+\begin{document}
+
+\maketitle
+
+\section{Organograma dos arquivos}
+
+Os arquivos do \modelo~ estão organizados da seguinte mandeira:
+
+
+\begin{itemize}
+\ttfamily
+ \item ecothesis:
+ \begin{itemize}
+  \item dados.tex
+  \item main.tex
+  \item res\_abs.tex
+  \item preambulo:
+  \begin{itemize}
+   \item agradecimentos.tex
+   \item resumo.tex
+   \item epigrafe.tex
+   \item dedicatoria.tex
+   \item capa.tex
+   \item aprovacao.tex
+   \item abstract.tex
+  \end{itemize}
+    \item capitulos:
+    \begin{itemize}
+     \item cap01:
+     \begin{itemize}
+      \item figura01.jpg
+      \item textoCap01.tex
+      \item referencias.bib
+     \end{itemize}
+
+     \item $[$...$]$
+    \end{itemize}
+
+ \end{itemize}
+
+
+\end{itemize}
+
+\section{Guia de utilização}
+
+\subsection{Pacotes necessários}
+
+Para a compilação do documento são necessários alguns pacotes. Tentamos utilizar os mais comuns e básicos possíveis. Também adicionamos alguns outros pacotes comumente utilizados em artigos e documentos científicos, como o para adicionar folhas no formato de paissagem e fórmulas matemáticas. Os pacotes sugeridos para a instalação são os seguintes (em ordem alfabética):
+
+\begin{description}
+ \item \texttt{array}, \texttt{amsmath}, \texttt{amssymb}, \texttt{booktabs}, \texttt{chapterbib}, \texttt{color}, \texttt{colortbl}, \texttt{fancyhdr}, \texttt{float}, \texttt{footmisc}, \texttt{framed}, \texttt{graphicx}, \texttt{hyperref}, \texttt{lineno}, \texttt{lipsum}, \texttt{longtable}, \texttt{lscape}, \texttt{multirow}, \texttt{natbib},\\ \texttt{pdfpages}, \texttt{setspace}, \texttt{standalone}, \texttt{textcomp}, \texttt{titlesec}, \texttt{tocloft}, \texttt{xcolor}, \texttt{xspace}
+\end{description}
+
+
+
+\subsection{Dados para documento}
+
+A primeira parte a ser configurada é o arquivo \texttt{\textbf{dados (.tex)}}. Nesse arquivo, alguns comandos foram criados para serem utilizados nos demais arquivos que compõem o documento e necessitam ser preenchidos. São eles:
+
+\begin{itemize}
+ \item Seu nome completo \texttt{($\backslash$nome)}: \textit{p. ex.} Artur Bernardes
+ \item Tipo de documento \texttt{($\backslash$tipo)}: \textit{p. ex.} Tese
+ \item Programa de Pós-graduação \texttt{($\backslash$programa)}: \textit{p. ex.} Entomologia
+ \item O nível do curso ou programa \texttt{($\backslash$curso)}: \textit{p. ex.} Programa de Pós-Graduação
+ \item Título do documento \texttt{($\backslash$titulo)}: \textit{p. ex.} Um modelo em \LaTeX~ para TCCs, Teses e Dissertações
+ \item Titulação \texttt{($\backslash$titulop)}: \textit{p. ex.} Doctor Scientiae
+ \item Cidade \texttt{($\backslash$cidade)}: \textit{p. ex.} Viçosa
+ \item Estado e País \texttt{($\backslash$estado)}: \textit{p. ex.} Minas Gerais - Brasil
+ \item Mês \texttt{($\backslash$mes)}: \textit{p. ex.} Julho
+ \item Ano \texttt{($\backslash$ano)}: \textit{p. ex.} 2017
+ \item Data de aprovação \texttt{($\backslash$aprovacao)}: \textit{p. ex.} 22 de março de 1988
+ \item Instituição de ensino: \texttt{($\backslash$instituicao)}: \textit{p. ex.} Univerisidade Federal de Viçosa
+ \item Membros da banca:
+ \begin{itemize}
+  \item Membro 01 \texttt{($\backslash$membroa)}: \textit{p. ex.} Delfim Moreira
+    \item Membro 02 \texttt{($\backslash$membrob)}: \textit{p. ex.} Epitácio Pessoa
+      \item Membro 03 \texttt{($\backslash$membroc)}: \textit{p. ex.} Raul Soares de Moura
+        \item Membro 04 \texttt{($\backslash$membrod)}: \textit{p. ex.} Washington Luís
+          \item Membro 05 \texttt{($\backslash$membroe)}: \textit{p. ex.} Júlio Prestes
+ \end{itemize}
+\end{itemize}
+
+ O arquivo \texttt{\textbf{dados (.tex)}} também possui alguns campos necessários para as páginas de Resumo e Abstract:
+ 
+ \begin{itemize}
+  \item Nome para a citação no resumo \texttt{($\backslash$nomecite)}: \textit{p. ex.} BERNARDES, Artur
+   \item Titulação abreviada \texttt{($\backslash$titulacao)}: \textit{p. ex.} D. Sc.
+   \item Nome do orientador \texttt{($\backslash$orientador)}: \textit{p. ex.} Nome
+   \item Mês e ano da aprovação \texttt{($\backslash$aprovacaoPT)}: \textit{p. ex.} outubro, 2017
+   \item Mês e ano da aprovação em inglês \texttt{($\backslash$aprovacaoEng)}: \textit{p. ex.} October, 2017
+   \item Título do trabalho em inglês \texttt{($\backslash$tituloEng)}: \textit{p. ex.} Template in \LaTeX~ for Thesis and Dissertation
+ \end{itemize}
+
+
+\subsection{Preâmbulo}
+
+Em seguida deverá ser preenchido o que chamamos de preâmbulo do documento. Essa parte constitui as seções que precedem os capítulos. Os arquivos necessários estão separados na pasta ``preambulo''. Nesta pasta, apenas alguns arquivos podem ser editados \textbf{nos locais indicados}:
+
+\begin{itemize}
+ \item \texttt{\textbf{capa.tex}}: Capa do documento. Não é necessário editar.
+ \item \texttt{\textbf{aprovacao.tex}}: Folha de aprovação do documento onde os membros da banca assinam. Não é necessário editar.
+ \item \texttt{\textbf{dedicatoria.tex}}: Folha opcional. Editar no local indicado.
+ \item \texttt{\textbf{epigrafe.tex}}: Folha opcional. Editar no local indicado.
+ \item \texttt{\textbf{agradecimentos.tex}}: Folha opcional. Editar no local indicado.
+\end{itemize}
+
+Nenhum desses arquivos deverá ser compilado. Eles serão utilizados pelo arquivo principal: \texttt{\textbf{main (.tex)}}. Os arquivos \texttt{\textbf{dedicatoria (.tex)}}, \texttt{\textbf{epígrafe (.tex)}} e \texttt{\textbf{agradecimentos (.tex)}} são opcionais e a remoção de um desses arquivos deve ser feita no arquivo \texttt{\textbf{main (.tex)}}.
+
+Na pasta ``preambulo'' também estão disponíveis os arquivos:
+
+\begin{itemize}
+ \item \texttt{\textbf{resumo.tex}}: Irá gerar a página do Resumo.
+ \item \texttt{\textbf{abstract.tex}}: Irá gerar a página do Asbtract.
+\end{itemize}
+
+Ambos os arquivos \texttt{\textbf{resumo (.tex)}} e \texttt{\textbf{abstract (.tex)}} na pasta ``preambulo'' não necessitam ser editados.
+
+\subsection{Resumo e abstract}
+
+O Resumo e o Asbtract do documento devem ser colocados no arquivo \texttt{res\_abs (.tex)} nos locais indicados. Os títulos desses textos serão gerados automaticamente com base nas informações adicionadas no arquivo \texttt{dados (.tex)}.
+
+\subsection{Capítulos}
+
+Os capítulos devem ser colocados separadamente na pasta ``capitulos'', juntamente com o banco de dados de refências \texttt{(.bib)} e as figuras utilizadas.
+
+\subsubsection{Referências}
+
+Nós utilizamos o pacote \texttt{chapterbib}, para separar as referências por capítulos. Essa opção está como padrão no \modelo~ e \textbf{é necessário compilar separadamente os capítulos} para que funcione devidamente. Isso é necessário para gerar um arquivo \texttt{.bbl} por capítulo, que por sua vez será utilizado pelo arquivo \texttt{\textbf{main.tex}}.
+
+
+\subsection{Compilação}
+
+Para gerar o documento final, basta compilar o arquivo \texttt{\textbf{main.tex}} utilizando o \texttt{PDFLaTeX}. Recomendamos gerar inicialmente as referências através do \texttt{Bibtex} e, em seguida, os índices através do \texttt{MakeIndex}.
+
+\end{document}
