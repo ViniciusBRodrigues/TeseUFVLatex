@@ -7,7 +7,7 @@ O código já está no formato exigido pela UFV. Além disso, o arquivo compila 
 
 O template também está disponível no CTAN: [https://ctan.org/pkg/ecothesis](https://ctan.org/pkg/ecothesis).
 
-[**O guia de utilização pode ser encontrado aqui.**](https://github.com/ViniciusBRodrigues/TeseUFVLatex/blob/master/ecothesis.pdf)
+:point_right: [**O guia de utilização pode ser encontrado aqui.**](https://github.com/ViniciusBRodrigues/TeseUFVLatex/blob/master/ecothesis.pdf)
 
 ---
 
