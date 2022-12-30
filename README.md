@@ -5,7 +5,7 @@ O código já está no formato exigido pela UFV. Além disso, o arquivo compila 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1289327.svg)](https://doi.org/10.5281/zenodo.1289327)
 
-O template também está disponível no CTAN: [https://ctan.org/pkg/ecothesis](https://ctan.org/pkg/ecothesis).
+:heavy_check_mark: O template também está disponível no CTAN: [https://ctan.org/pkg/ecothesis](https://ctan.org/pkg/ecothesis).
 
 :point_right: [**O guia de utilização pode ser encontrado aqui.**](https://github.com/ViniciusBRodrigues/TeseUFVLatex/blob/master/ecothesis.pdf)
 
